@@ -6,10 +6,15 @@ import {
 import { AuthButtons } from '../components/AuthButtons';
 
 import { Heading, Text } from '../components/Typography';
+import Head from 'next/head';
 
 export default function Login() {
   return (
     <LogoContainer>
+      <Head>
+        <title>Login | BookWise</title>
+        <link rel="shortcut icon" href="/favicon.svg" type="image/svg" />
+      </Head>
       <LogoSection>
         <img src="/images/logo.svg" alt="" />
       </LogoSection>
