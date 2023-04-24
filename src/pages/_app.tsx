@@ -5,7 +5,7 @@ import { Nunito } from 'next/font/google';
 import { ReactElement, ReactNode } from 'react';
 import { SessionProvider } from 'next-auth/react';
 import { QueryClientProvider } from '@tanstack/react-query';
-//import { queryClient } from '@/lib/react-query';
+import { queryClient } from '@/lib/react-query';
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
   getLayout?: (page: ReactElement) => ReactNode;
