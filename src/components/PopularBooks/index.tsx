@@ -3,7 +3,7 @@ import { Link } from '../ui/Link';
 import { Text } from '../Typography';
 import { Container } from './styles';
 import { useQuery } from '@tanstack/react-query';
-import { api } from '@/lib/axios';
+import { api } from '../../lib/axios';
 
 export const PopularBooks = () => {
   const { data: popularBooks } = useQuery<BookWithAvgRating[]>(

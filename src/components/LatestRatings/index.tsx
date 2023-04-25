@@ -4,7 +4,7 @@ import { Text } from '../Typography';
 import { Container, LatestContainer } from './styles';
 import { ChartLineUp } from '@phosphor-icons/react';
 import { useQuery } from '@tanstack/react-query';
-import { api } from '@/lib/axios';
+import { api } from '../../lib/axios';
 import { useSession } from 'next-auth/react';
 import { Link } from '../ui/Link';
 
