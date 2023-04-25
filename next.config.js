@@ -7,7 +7,8 @@ const nextConfig = {
       's3-alpha-sig.figma.com',
       'lh3.googleusercontent.com',
       'avatars.githubusercontent.com',
-      'images.unsplash.com'
+      'images.unsplash.com',
+      'github.com'
     ]
   }
 };
