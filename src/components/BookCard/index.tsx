@@ -1,5 +1,5 @@
 import { Book } from '@prisma/client';
-import { RatingStars } from '../RatingStars';
+import { RatingStars } from '../PopularBooks/RatingStars';
 import { RatingsDialog } from '../RatingsDialog';
 import { Text } from '../Typography';
 import {

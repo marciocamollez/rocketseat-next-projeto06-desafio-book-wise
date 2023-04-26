@@ -1,14 +1,12 @@
-import { styled } from "../../../../stitches.config";
+import { styled } from "../../../../../stitches.config";
 
-export const InputContainer = styled("div", {
+export const Container = styled("div", {
   background: "$gray800",
   border: "1px solid currentColor",
   display: "flex",
-  alignItems: "center",
+  flexDirection: "column",
   width: "100%",
   borderRadius: 4,
-  gap: "$5",
-  paddingRight: "$5",
   color: "$gray500",
   transition: "0.2s",
 
@@ -16,14 +14,15 @@ export const InputContainer = styled("div", {
     color: "$green200"
   },
 
-  input: {
-    height: 48,
+  textarea: {
     flex: 1,
-    paddingLeft: "$5",
+    padding: "0.875rem $5",
     background: "none",
     border: "none",
     color: "$gray100",
     fontSize: "0.875rem",
+    resize: "none",
+    minHeight: "136px",
 
     "&::placeholder": {
       color: "$gray400"
@@ -32,5 +31,13 @@ export const InputContainer = styled("div", {
     "&:focus": {
       outline: "none"
     }
+  },
+
+  span: {
+    color: "#7C7C8A",
+    fontSize: "$xs",
+    marginLeft: "auto",
+    paddingRight: 8,
+    paddingBottom: 4
   }
 })
