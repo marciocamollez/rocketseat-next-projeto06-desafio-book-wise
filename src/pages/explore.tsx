@@ -8,7 +8,7 @@ import {
 import { ReactElement, useState } from 'react';
 import { NextPageWithLayout } from './_app';
 import { Binoculars } from '@phosphor-icons/react';
-import { Input } from '@/components/ui/form';
+import { Input } from '@/components/ui/form/Input';
 import { MagnifyingGlass } from '@phosphor-icons/react';
 import { Tag } from '@/components/ui/Tag';
 import { BookCard, BookWithAvgRating } from '@/components/BookCard';

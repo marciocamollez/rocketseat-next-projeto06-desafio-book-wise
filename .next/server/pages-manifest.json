@@ -1,5 +1,15 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/api/books/popular": "pages/api/books/popular.js",
+  "/api/ratings/user-latest": "pages/api/ratings/user-latest.js",
+  "/explore": "pages/explore.js",
+  "/api/ratings/latest": "pages/api/ratings/latest.js",
+  "/api/books/categories": "pages/api/books/categories.js",
+  "/api/books/[bookId]/rate": "pages/api/books/[bookId]/rate.js",
+  "/api/books/details/[bookId]": "pages/api/books/details/[bookId].js",
+  "/api/books": "pages/api/books.js",
+  "/api/profile/[userId]": "pages/api/profile/[userId].js"
 }
